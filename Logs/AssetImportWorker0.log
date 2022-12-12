@@ -1,0 +1,426 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.11f1 (0a5ca18544bf) revision 679073'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Enterprise' Language: 'en' Physical Memory: 8087 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/ThinkPad/Desktop/Create with code Ismail Omotoso/CrazyShooter
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57902
+Successfully changed project path to: C:/Users/ThinkPad/Desktop/Create with code Ismail Omotoso/CrazyShooter
+C:/Users/ThinkPad/Desktop/Create with code Ismail Omotoso/CrazyShooter
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 207.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ThinkPad/Desktop/Create with code Ismail Omotoso/CrazyShooter/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics Family (ID=0xa16)
+    Vendor:   Intel
+    VRAM:     2048 MB
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56808
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.013223 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 228.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.350 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2351ms)
+		BeginReloadAssembly (632ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1321ms)
+			LoadAssemblies (627ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (297ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (90ms)
+			SetupLoadedEditorAssemblies (782ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (229ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (385ms)
+				ProcessInitializeOnLoadMethodAttributes (139ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.016808 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\ThinkPad\Desktop\Create with code Ismail Omotoso\CrazyShooter\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\ThinkPad\Desktop\Create with code Ismail Omotoso\CrazyShooter\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.806 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2808ms)
+		BeginReloadAssembly (300ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (2178ms)
+			LoadAssemblies (200ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (713ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (145ms)
+			SetupLoadedEditorAssemblies (1027ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (234ms)
+				ProcessInitializeOnLoadAttributes (688ms)
+				ProcessInitializeOnLoadMethodAttributes (71ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 1.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (113.8 KB). Loaded Objects now: 3837.
+Memory consumption went from 116.2 MB to 116.1 MB.
+Total: 8.383300 ms (FindLiveObjects: 0.479500 ms CreateObjectMapping: 0.520200 ms MarkObjects: 7.100000 ms  DeleteObjects: 0.281600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2741366.716138 seconds.
+  path: Assets/Spaceship/Models/Spaceship.fbx
+  artifactKey: Guid(1e54f65602d7a4f4a9bfdf2a97f3e1c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spaceship/Models/Spaceship.fbx using Guid(1e54f65602d7a4f4a9bfdf2a97f3e1c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a13a264f37bbe651d81d5eb49a5b370c') in 1.964897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Spaceship/Real Stars Skybox/Demo Scene/Skybox Camera.prefab
+  artifactKey: Guid(ebbd32dcb8045dc4f82118fac564ad52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spaceship/Real Stars Skybox/Demo Scene/Skybox Camera.prefab using Guid(ebbd32dcb8045dc4f82118fac564ad52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a3ccecc867a78c38297d4b19afdd40') in 0.044276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Spaceship/Real Stars Skybox/Demo Scene
+  artifactKey: Guid(6c0bbc020110ead47955ae38f90c2311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spaceship/Real Stars Skybox/Demo Scene using Guid(6c0bbc020110ead47955ae38f90c2311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1b498b8e5ba1fdae8fd8168b9be7a1d') in 0.026744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Spaceship/Models/low poly planet.fbx
+  artifactKey: Guid(f0e69f665c0fdf440a98ae9be758e7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spaceship/Models/low poly planet.fbx using Guid(f0e69f665c0fdf440a98ae9be758e7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36d80ae0a0e25878c722d19b6a3a2360') in 0.076128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.248286 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55ccaa32d8e5c1de03c07a5412c8c3c') in 0.021604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.687077 seconds.
+  path: Assets/Spaceship/Real Stars Skybox/StarSkybox04
+  artifactKey: Guid(9a69603e0221c4448a19671eb2251daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spaceship/Real Stars Skybox/StarSkybox04 using Guid(9a69603e0221c4448a19671eb2251daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bf174a2abd908b79828d51c591797e7') in 0.025211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012634 seconds.
+  path: Assets/Spaceship/Real Stars Skybox/StarSkybox04/CubemapStars.cubemap
+  artifactKey: Guid(5a672cb61ef32734b9c28539c9c42494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spaceship/Real Stars Skybox/StarSkybox04/CubemapStars.cubemap using Guid(5a672cb61ef32734b9c28539c9c42494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d1e89e5ebc4bff08118cbfd0d05e6f9') in 3.657013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Spaceship/Real Stars Skybox/StarSkybox04/StarSkybox042.png
+  artifactKey: Guid(31ec1046449e0724ab9f74f07c8d0bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spaceship/Real Stars Skybox/StarSkybox04/StarSkybox042.png using Guid(31ec1046449e0724ab9f74f07c8d0bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6cfce7c261ce49ac86bbd35c21ee4c7') in 0.082305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Spaceship/Real Stars Skybox/StarSkybox04/StarSkybox045.png
+  artifactKey: Guid(bc8f9c3d8de49024bab7c4052cbd81b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spaceship/Real Stars Skybox/StarSkybox04/StarSkybox045.png using Guid(bc8f9c3d8de49024bab7c4052cbd81b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1998342a193ce85b898b45641197d27') in 0.057180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Spaceship/Real Stars Skybox/StarSkybox04/StarSkybox043.png
+  artifactKey: Guid(ea43e4f309217a34b8d06ce34f5da50e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spaceship/Real Stars Skybox/StarSkybox04/StarSkybox043.png using Guid(ea43e4f309217a34b8d06ce34f5da50e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e904089829d7282625318fbc3d9d9577') in 0.063253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Spaceship/Real Stars Skybox/StarSkybox04/StarSkybox044.png
+  artifactKey: Guid(d4d865ffc05192e4d8a5e8a52a02eb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spaceship/Real Stars Skybox/StarSkybox04/StarSkybox044.png using Guid(d4d865ffc05192e4d8a5e8a52a02eb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ab828dc4b113b83df5509b498698766') in 0.080580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Spaceship/Real Stars Skybox/StarSkybox04Named/StarSkybox04Named.mat
+  artifactKey: Guid(50e26aed28714894cb49da25901379b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spaceship/Real Stars Skybox/StarSkybox04Named/StarSkybox04Named.mat using Guid(50e26aed28714894cb49da25901379b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf9243d3513722d7633fd65c0d91172') in 0.562710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Spaceship/Real Stars Skybox/StarSkybox04Named/StarSkybox04Named2.png
+  artifactKey: Guid(cc26d520115a6a547b7be689f90fb8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spaceship/Real Stars Skybox/StarSkybox04Named/StarSkybox04Named2.png using Guid(cc26d520115a6a547b7be689f90fb8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1573b638ad67e95492a23b020138f5a5') in 0.070868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Spaceship/Real Stars Skybox/StarSkybox04Named/CubemapStarsNamed.cubemap
+  artifactKey: Guid(ec138a587ef5adc488cf01a681a9e4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spaceship/Real Stars Skybox/StarSkybox04Named/CubemapStarsNamed.cubemap using Guid(ec138a587ef5adc488cf01a681a9e4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '255cb6d513a63db6f649e968baf45a9b') in 4.521894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Spaceship/Real Stars Skybox/StarSkybox04NamedConstell/StarSkybox04NamedConstell3.png
+  artifactKey: Guid(9cd21000384bca14bbac1e6d1c07063d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spaceship/Real Stars Skybox/StarSkybox04NamedConstell/StarSkybox04NamedConstell3.png using Guid(9cd21000384bca14bbac1e6d1c07063d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8fe163e77e18e530920a94500bd71e4') in 0.082742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Spaceship/Real Stars Skybox/StarSkybox04NamedConstell/StarSkybox04NamedConstell6.png
+  artifactKey: Guid(8618acc75ce91dc4494071915deab9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spaceship/Real Stars Skybox/StarSkybox04NamedConstell/StarSkybox04NamedConstell6.png using Guid(8618acc75ce91dc4494071915deab9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fee3b57ad648e02d786110f6358cc29') in 0.103666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Spaceship/Real Stars Skybox/StarSkybox04Named/StarSkybox04Named3.png
+  artifactKey: Guid(a2b03e4b2c0f0ed4b9646579fbdc3f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spaceship/Real Stars Skybox/StarSkybox04Named/StarSkybox04Named3.png using Guid(a2b03e4b2c0f0ed4b9646579fbdc3f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b850154383eac1c02ec9d86592585d') in 0.144544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Spaceship/Real Stars Skybox/StarSkybox04NamedConstell/StarSkybox04NamedConstell2.png
+  artifactKey: Guid(daee3db1a1d3c3346bfe8c6ae1577d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spaceship/Real Stars Skybox/StarSkybox04NamedConstell/StarSkybox04NamedConstell2.png using Guid(daee3db1a1d3c3346bfe8c6ae1577d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05e0f5e7b71146c8a2ba526d1be5729d') in 0.056432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Spaceship/Real Stars Skybox/StarSkybox04NamedConstell/CubemapStarsNamedConstellations.cubemap
+  artifactKey: Guid(f57e241cdb19d3c4788594fdd1e24c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spaceship/Real Stars Skybox/StarSkybox04NamedConstell/CubemapStarsNamedConstellations.cubemap using Guid(f57e241cdb19d3c4788594fdd1e24c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd15798cba1b54cba57aaea8c645bb12') in 3.991367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Spaceship/Real Stars Skybox/StarSkybox04NamedConstell/StarSkybox04NamedConstell4.png
+  artifactKey: Guid(a286e1629b6f5414d8cc5f6f27dbc131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spaceship/Real Stars Skybox/StarSkybox04NamedConstell/StarSkybox04NamedConstell4.png using Guid(a286e1629b6f5414d8cc5f6f27dbc131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '897e7a70c82c6d87cd95508482c1aafd') in 0.031536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Spaceship/Real Stars Skybox/StarSkybox04Named/StarSkybox04Named1.png
+  artifactKey: Guid(1b5491d7d8c0c684a8d4827a8473b1d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spaceship/Real Stars Skybox/StarSkybox04Named/StarSkybox04Named1.png using Guid(1b5491d7d8c0c684a8d4827a8473b1d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e104332edfd0a5467c2011209616c65a') in 0.065157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Spaceship/Real Stars Skybox/StarSkybox04Named/StarSkybox04Named6.png
+  artifactKey: Guid(3169cbab7bd82fb4e889ad1d3f30ddc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spaceship/Real Stars Skybox/StarSkybox04Named/StarSkybox04Named6.png using Guid(3169cbab7bd82fb4e889ad1d3f30ddc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a88ff05d551b467e7399370150eb61cc') in 0.046916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Spaceship/Real Stars Skybox/StarSkybox04NamedConstell/StarSkybox04NamedConstell.mat
+  artifactKey: Guid(281ddd71b990ce9449efecec53925061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spaceship/Real Stars Skybox/StarSkybox04NamedConstell/StarSkybox04NamedConstell.mat using Guid(281ddd71b990ce9449efecec53925061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd912f88f9aa67d7e32b7de5f2204819') in 0.066347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Spaceship/Real Stars Skybox/StarSkybox04NamedConstell/StarSkybox04NamedConstell5.png
+  artifactKey: Guid(e2f3c15f1dd8f4d40b0dc5815e0a17e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spaceship/Real Stars Skybox/StarSkybox04NamedConstell/StarSkybox04NamedConstell5.png using Guid(e2f3c15f1dd8f4d40b0dc5815e0a17e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e945a9da5e5f69f258e9a5a1e3acde') in 0.066363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Spaceship/Real Stars Skybox/StarSkybox04NamedConstell/StarSkybox04NamedConstell1.png
+  artifactKey: Guid(14dc5b7e061db634287a9d257530bb56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spaceship/Real Stars Skybox/StarSkybox04NamedConstell/StarSkybox04NamedConstell1.png using Guid(14dc5b7e061db634287a9d257530bb56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea8dcbccbafa200b2c3667bda3523df4') in 0.064512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Spaceship/Real Stars Skybox/StarSkybox04/StarSkybox046.png
+  artifactKey: Guid(16ae4d25f079e384dacef7c5eb98a168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spaceship/Real Stars Skybox/StarSkybox04/StarSkybox046.png using Guid(16ae4d25f079e384dacef7c5eb98a168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '976a94ec9e78583ce3a9b09c73813ef9') in 0.058361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Spaceship/Real Stars Skybox/StarSkybox04Named/StarSkybox04Named5.png
+  artifactKey: Guid(5a335a020961242499ce58f2b87ea0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spaceship/Real Stars Skybox/StarSkybox04Named/StarSkybox04Named5.png using Guid(5a335a020961242499ce58f2b87ea0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '738474c2d4f5fa04d7f942b3c3726d17') in 0.051592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Spaceship/Real Stars Skybox/StarSkybox04/StarSkybox04.mat
+  artifactKey: Guid(2d056ac30ecc9e542b26e06133f23602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spaceship/Real Stars Skybox/StarSkybox04/StarSkybox04.mat using Guid(2d056ac30ecc9e542b26e06133f23602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c8c2f0ffd0837e7714cd2fcb8d7309') in 0.088906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Spaceship/Real Stars Skybox/StarSkybox04Named/StarSkybox04Named4.png
+  artifactKey: Guid(f479446fdaba63147be06b118936fde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spaceship/Real Stars Skybox/StarSkybox04Named/StarSkybox04Named4.png using Guid(f479446fdaba63147be06b118936fde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '034227e0fbbd0930c458b716cf4a14d1') in 0.072622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001137 seconds.
+  path: Assets/Spaceship/Real Stars Skybox/StarSkybox04/StarSkybox041.png
+  artifactKey: Guid(fcd92899f9fb6a0468bcb56a38dd4a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spaceship/Real Stars Skybox/StarSkybox04/StarSkybox041.png using Guid(fcd92899f9fb6a0468bcb56a38dd4a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '769e7e53001e60b206bfee0d8fe00397') in 0.098917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.759999 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8193726cff86800c54781cdc6d54904') in 0.046523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.874038 seconds.
+  path: Assets/Spaceship
+  artifactKey: Guid(084f8426670859643872388039f9acaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spaceship using Guid(084f8426670859643872388039f9acaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d2979253b6108278f722330ef2b6ad5') in 0.021976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.354557 seconds.
+  path: Assets/Spaceship/Models
+  artifactKey: Guid(e6007a31dcb435346bb3952da131bb31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spaceship/Models using Guid(e6007a31dcb435346bb3952da131bb31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa0395d8a67169bce69fe7629e418cdd') in 0.029338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.226734 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(2481b577965790c4d9eb00628d4aef61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(2481b577965790c4d9eb00628d4aef61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79dd7ae693cf11dc36577bce51956578') in 0.032101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.903211 seconds.
+  path: Assets/Scripts/SpaceShip.cs
+  artifactKey: Guid(809feb2ca8310114cba0caf45ba88119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SpaceShip.cs using Guid(809feb2ca8310114cba0caf45ba88119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ea399829d1fafbed86891f569c292b4') in 0.033858 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020801 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\ThinkPad\Desktop\Create with code Ismail Omotoso\CrazyShooter\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\ThinkPad\Desktop\Create with code Ismail Omotoso\CrazyShooter\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.823 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2824ms)
+		BeginReloadAssembly (602ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (83ms)
+		EndReloadAssembly (1910ms)
+			LoadAssemblies (461ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (627ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (146ms)
+			SetupLoadedEditorAssemblies (809ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (154ms)
+				ProcessInitializeOnLoadAttributes (499ms)
+				ProcessInitializeOnLoadMethodAttributes (94ms)
+				AfterProcessingInitializeOnLoad (32ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3376 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (80.3 KB). Loaded Objects now: 3891.
+Memory consumption went from 121.2 MB to 121.1 MB.
+Total: 5.386000 ms (FindLiveObjects: 0.411400 ms CreateObjectMapping: 0.217500 ms MarkObjects: 4.598300 ms  DeleteObjects: 0.157000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
